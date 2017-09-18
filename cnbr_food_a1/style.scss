@@ -202,3 +202,73 @@ $c_margins: 50px 0;
         margin-top: 50px;
     }
 }
+
+.rest_list {
+    height: auto;
+    padding: 0px;
+    margin: $s_margins;
+    .rest_items {
+        float: left;
+        .rest_item {
+            border: 3px solid $c_02;
+            margin: auto;
+            margin-bottom: 10px;
+            height: 100%;
+            img {
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+            div {
+                h2 {
+                    @extend ._1font;
+                }
+            }
+        }
+    }
+    .rest_reviews {
+        background-color: lightblue;
+        height: 750px;
+        float: left;
+        div {
+            h2 {
+                @extend ._1font;
+            }
+        }
+        
+    }
+}
+
+.cuisine_list {
+    height: auto;
+    padding: 0px;
+    margin: 0 auto;
+    .rest_items {
+        float: left;
+        .rest_item {
+            border: 3px solid $c_02;
+            margin: auto;
+            margin-bottom: 10px;
+            height: 100%;
+            img {
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+            div {
+                h2 {
+                    @extend ._1font;
+                }
+            }
+        }
+    }
+    .rest_reviews {
+        background-color: lightblue;
+        height: 750px;
+        float: left;
+        div {
+            h2 {
+                @extend ._1font;
+            }
+        }
+        
+    }
+}

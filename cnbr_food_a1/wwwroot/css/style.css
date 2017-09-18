@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Niconne|Oxygen");
-._1font, .header div h2, .section_about .text h2, .section_reviews .text h2 {
+._1font, .header div h2, .section_about .text h2, .section_reviews .text h2, .rest_list .rest_items .rest_item div h2, .rest_list .rest_reviews div h2, .cuisine_list .rest_items .rest_item div h2, .cuisine_list .rest_reviews div h2 {
   font-family: 'Oxygen', sans-serif;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -152,3 +152,41 @@
 
 .section_slider .carousel {
   margin-top: 50px; }
+
+.rest_list {
+  height: auto;
+  padding: 0px;
+  margin: 25px 75px; }
+  .rest_list .rest_items {
+    float: left; }
+    .rest_list .rest_items .rest_item {
+      border: 3px solid #000000;
+      margin: auto;
+      margin-bottom: 10px;
+      height: 100%; }
+      .rest_list .rest_items .rest_item img {
+        padding-top: 25px;
+        padding-bottom: 25px; }
+  .rest_list .rest_reviews {
+    background-color: lightblue;
+    height: 750px;
+    float: left; }
+
+.cuisine_list {
+  height: auto;
+  padding: 0px;
+  margin: 0 auto; }
+  .cuisine_list .rest_items {
+    float: left; }
+    .cuisine_list .rest_items .rest_item {
+      border: 3px solid #000000;
+      margin: auto;
+      margin-bottom: 10px;
+      height: 100%; }
+      .cuisine_list .rest_items .rest_item img {
+        padding-top: 25px;
+        padding-bottom: 25px; }
+  .cuisine_list .rest_reviews {
+    background-color: lightblue;
+    height: 750px;
+    float: left; }
