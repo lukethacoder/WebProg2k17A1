@@ -1,0 +1,37 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Niconne|Oxygen');
+
+body {
+
+}
+
+.header {
+    height: 750px;
+    background: url(../images/restaurant_2.jpg) center center no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0 auto;
+
+
+}
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,rgba(0,0,0,0.5),rgba(1,1,1,0.5));
+}
+.header div h1 {
+    font-family: 'Niconne', cursive;
+    color: #f8bd08;
+}
+.header div p {
+
+}
+.header div h2 {
+    font-family: 'Oxygen', sans-serif;
+    color: #ffffff;
+}
+

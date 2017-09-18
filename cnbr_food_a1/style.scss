@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne|Oxygen');
+
+$c_01:#ffffff;
+$c_02: #000000;
+$c_03: #f8bd08;
+
+$g_01: rgba(30,15,15,0.75);
+
+$s_margins: 25px 75px;
+$c_margins: 50px 0;
+
+
+._1font {
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+._2font {
+    font-family: 'Niconne', cursive;
+    color: $c_03;
+}
+
+.header {
+    height: 350px;
+    background: url(../images/restaurant_2.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    &:before {
+        width: 100%;
+        height: 100%;
+        display: block;
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to top right,$g_01,$g_01);
+    }
+    div {
+        z-index: 5;
+        height: auto;
+        display: inline-block;
+        margin: 50px auto;
+        max-width: 90%;
+        h2 {
+            @extend ._1font;
+            color: $c_01;
+            display: block;
+            border: 4px solid $c_01;
+            padding: 5px;
+            margin: 0 auto;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            text-align: center;
+            max-width: 65%;
+        }
+        h1 {
+            @extend ._2font;
+            display: block;
+            text-align: center;
+            font-size: 64px;
+            margin: 0 auto;
+            margin-bottom: 25px;
+        }
+        p {
+            color: $c_01;
+            display: block;
+            font-size: 24px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.section_about {
+    height: auto;
+    padding: 0px;
+    margin: $s_margins;
+    .text {
+        margin: $c_margins;
+        float: left;
+        h2 {
+            @extend ._1font;
+            color: $c_02;
+            display: block;
+            margin: 0 auto;
+        }
+        h1 {
+            @extend ._2font;
+            display: block;
+            font-size: 48px;
+            margin: 0 auto;
+        }
+        p {
+            color: $c_02;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .food_image {
+        height: auto;
+        display: flex;
+        margin: $c_margins;
+        float: left;
+        img {
+            margin: 0 auto;
+        }
+    }
+}
+
+.section_pages {
+    background: url(../images/restaurant_3.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0 auto;
+    position: relative;
+    &:before {
+        width: 100%;
+        height: 100%;
+        display: block;
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom right,$g_01,$g_01);
+    }
+    div {
+        z-index: 5;
+        text-align: center;
+        padding: 50px 10px;
+        h1 {
+            @extend ._2font;
+            display: block;
+            font-size: 48px;
+            margin: 20px auto;
+        }
+        p {
+            color: $c_01;
+            display: block;
+            margin: 20px auto;
+            a {
+                color: $c_03;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.section_reviews {
+    padding: 0px;
+    margin: $s_margins;
+    .text {
+        float: left;
+        margin: $c_margins;
+        h2 {
+            @extend ._1font;
+            color: $c_02;
+            margin: 0 auto;
+        }
+        h1 {
+            @extend ._2font;
+            font-size: 48px;
+            margin: 0 auto;
+        }
+        p {
+            color: $c_02;
+            margin: 0 auto;
+        }
+    }
+    .food_image {
+        display: flex;
+        margin: $c_margins;
+        float: left;
+        img {
+            margin: 0 auto;
+        }
+    }
+}
+
+.section_slider {
+
+    h1 {
+        @extend ._2font;
+        display: block;
+        font-size: 48px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 25px 0;
+        border-top: 4px solid $c_03;
+        border-bottom: 4px solid $c_03;
+    }
+    .carousel {
+        margin-top: 50px;
+    }
+}
