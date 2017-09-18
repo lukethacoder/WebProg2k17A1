@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Location";
+    ViewData["Title"] = "Restaurant Locations";
 }
 
 <div class="container">
@@ -9,9 +9,9 @@
             <h1>@ViewData["Title"]</h1>
         </div>
     </div>
-    <div class="row">
+    <div class="row map_cont">
         @* The div element below is to display Google Map*@
-        <div id="googleMap" style="width:100%;height:800px;"></div>
+        <div class="map col-xs-12" id="googleMap" style="width:100%;height:800px;"></div>
     </div>
 </div>
 
