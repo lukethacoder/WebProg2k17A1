@@ -19,87 +19,90 @@
 </div>
 
 
++
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
+    $ = jQuery.noConflict();
     $(function () {
-        $("#dishes_holder").elastic_grid({
-            'filterEffect': '<a href="http://www.jqueryscript.net/tags.php?/popup/">popup</a>',
-            'hoverDirection': true,
-            'hoverDelay': 0,
-            'hoverInverse': false,
-            'expandingSpeed': 500,
-            'expandingHeight': 500,
-            'items':
-            [
-                // {
-                //     "name": "Italian and Sons",
-                //     "bio" : "bio here"
-                //     "type": "Italian, Asian, Indian",
-                //     "dishes": "Pasta, Pizza, Curry, Dumplings, Laksa",
-                //     "cost": "cheap/affordable/expensive",
-                //     "img": "../images/elastic_grid/is_thumbnail.jpg",
-                //     "website": "https://italianandsons.com.au/"
-                // }
-                {
-                    "name": "Italian and Sons",
-                    "bio": "\"A casual Italian trattoria that specialises in wood fried pizzas such as Rucola with Prosciutto di Parma, rucola & reggiano. Don't miss daily changing main dishes of the day such as their wood roast suckling pig, rosemary, garlic, baked baby fennel & mustard fruits.\" - Australian Good Food Guide",
-                    "type": "Italian",
-                    "dishes": "Pasta",
-                    "cost": "cheap",
-                    "img": "is_thumbnail.jpg",
-                    "website": "https://italianandsons.com.au/",
-                    "tags": ["Pasta"]
-                },
-                {
-                    "name": "Jamie's Italian",
-                    "bio": "\"With prime position in the Canberra Centre on Bunda Street, Jamie's Italian is the perfect place for a mid-shopping pit stop, or a buzzing evening out. With beautiful room-height windows and impressive lofty ceilings, the restaurant is full of atmosphere.\" - Jamie's Website",
-                    "type": "Italian",
-                    "dishes": "Pizza",
-                    "cost": "cheap",
-                    "img": "jamies_thumbnail.jpg",
-                    "website": "https://www.jamieoliver.com/italian/australia/",
-                    "tags": ["Pizza"]
-                },
-                {
-                    "name": "Chairman & Yip",
-                    "bio": "\"The Chairman & Yip has become one of Canberra's longest standing and most highly regarded insitutions, having recieved numerous awards over the years, offering an ever consistent and professional quality of service for corporate dining, conferences and presentations\" - Chairman & Yip Website",
-                    "type": "Asian",
-                    "dishes": "Dumplings",
-                    "cost": "cheap",
-                    "img": "chairman_yip_thumbnail.jpg",
-                    "website": "http://chairmangroup.com.au/thechairmanhk/",
-                    "tags": ["Dumplings"]
-                },
-                {
-                    "name": "Dickson Asian Noodle House",
-                    "bio": "\"The Dickson Asian Noodle Houses specialises in traditional Malaysian, Thai and Lao cuisine. The dining atmosphere is casual and cosy providing for a la carte dining, banquets and take away.\" - Vibe FM Website",
-                    "type": "Asian",
-                    "dishes": "Laksa",
-                    "cost": "cheap",
-                    "img": "dickson_noodle_thumbnail.jpg",
-                    "website": "https://www.facebook.com/pages/Dickson-Asian-Noodle-House/156690017692038?ref=br_rs",
-                    "tags": ["Laksa"]
-                },
-                {
-                    "name": "Blu Ginger",
-                    "bio": "At Blu Ginger we use only the freshest locally sourced produce, combined with authentic spices imported directly from the sub-continent, to offer classic, traditional recipes with a mordern twist, creating a unique and memorable dining expereince for you.\" - Blu Ginger Website",
-                    "type": "Indian",
-                    "dishes": "Curry",
-                    "cost": "cheap",
-                    "img": "bluginger_thumbnail.jpg",
-                    "website": "http://www.bluginger.com.au/",
-                    "tags": ["Curry"]
-                },
-                {
-                    "name": "Jewel of India",
-                    "bio": "\"Finding a balance between dishes inspired by authentic recipes and creating a modern take on classic cuisine sees a loyal following of Canberra locals returning for a mouth-watering feast.\" - Australian Good Food Guide Website",
-                    "type": "Indian",
-                    "dishes": "Curry",
-                    "cost": "cheap",
-                    "img": "jewel_thumbnail.jpg",
-                    "website": "https://jewelofindia.com.au/",
-                    "tags": ["Curry"]
-                }
-            ]
-        });
+            $("#dishes_holder").elastic_grid({
+                'filterEffect': '<a href="http://www.jqueryscript.net/tags.php?/popup/">popup</a>',
+                'hoverDirection': true,
+                'hoverDelay': 0,
+                'hoverInverse': false,
+                'expandingSpeed': 500,
+                'expandingHeight': 500,
+                'items':
+                [
+                    // {
+                    //     "name": "Italian and Sons",
+                    //     "bio" : "bio here"
+                    //     "type": "Italian, Asian, Indian",
+                    //     "dishes": "Pasta, Pizza, Curry, Dumplings, Laksa",
+                    //     "cost": "cheap/affordable/expensive",
+                    //     "img": "../images/elastic_grid/is_thumbnail.jpg",
+                    //     "website": "https://italianandsons.com.au/"
+                    // }
+                    {
+                        "name": "Italian and Sons",
+                        "bio": "\"A casual Italian trattoria that specialises in wood fried pizzas such as Rucola with Prosciutto di Parma, rucola & reggiano. Don't miss daily changing main dishes of the day such as their wood roast suckling pig, rosemary, garlic, baked baby fennel & mustard fruits.\" - Australian Good Food Guide",
+                        "type": "Italian",
+                        "dishes": "Pasta",
+                        "cost": "cheap",
+                        "img": "is_thumbnail.jpg",
+                        "website": "https://italianandsons.com.au/",
+                        "tags": ["Pasta"]
+                    },
+                    {
+                        "name": "Jamie's Italian",
+                        "bio": "\"With prime position in the Canberra Centre on Bunda Street, Jamie's Italian is the perfect place for a mid-shopping pit stop, or a buzzing evening out. With beautiful room-height windows and impressive lofty ceilings, the restaurant is full of atmosphere.\" - Jamie's Website",
+                        "type": "Italian",
+                        "dishes": "Pizza",
+                        "cost": "cheap",
+                        "img": "jamies_thumbnail.jpg",
+                        "website": "https://www.jamieoliver.com/italian/australia/",
+                        "tags": ["Pizza"]
+                    },
+                    {
+                        "name": "Chairman & Yip",
+                        "bio": "\"The Chairman & Yip has become one of Canberra's longest standing and most highly regarded insitutions, having recieved numerous awards over the years, offering an ever consistent and professional quality of service for corporate dining, conferences and presentations\" - Chairman & Yip Website",
+                        "type": "Asian",
+                        "dishes": "Dumplings",
+                        "cost": "cheap",
+                        "img": "chairman_yip_thumbnail.jpg",
+                        "website": "http://chairmangroup.com.au/thechairmanhk/",
+                        "tags": ["Dumplings"]
+                    },
+                    {
+                        "name": "Dickson Asian Noodle House",
+                        "bio": "\"The Dickson Asian Noodle Houses specialises in traditional Malaysian, Thai and Lao cuisine. The dining atmosphere is casual and cosy providing for a la carte dining, banquets and take away.\" - Vibe FM Website",
+                        "type": "Asian",
+                        "dishes": "Laksa",
+                        "cost": "cheap",
+                        "img": "dickson_noodle_thumbnail.jpg",
+                        "website": "https://www.facebook.com/pages/Dickson-Asian-Noodle-House/156690017692038?ref=br_rs",
+                        "tags": ["Laksa"]
+                    },
+                    {
+                        "name": "Blu Ginger",
+                        "bio": "At Blu Ginger we use only the freshest locally sourced produce, combined with authentic spices imported directly from the sub-continent, to offer classic, traditional recipes with a mordern twist, creating a unique and memorable dining expereince for you.\" - Blu Ginger Website",
+                        "type": "Indian",
+                        "dishes": "Curry",
+                        "cost": "cheap",
+                        "img": "bluginger_thumbnail.jpg",
+                        "website": "http://www.bluginger.com.au/",
+                        "tags": ["Curry"]
+                    },
+                    {
+                        "name": "Jewel of India",
+                        "bio": "\"Finding a balance between dishes inspired by authentic recipes and creating a modern take on classic cuisine sees a loyal following of Canberra locals returning for a mouth-watering feast.\" - Australian Good Food Guide Website",
+                        "type": "Indian",
+                        "dishes": "Curry",
+                        "cost": "cheap",
+                        "img": "jewel_thumbnail.jpg",
+                        "website": "https://jewelofindia.com.au/",
+                        "tags": ["Curry"]
+                    }
+                ]
+            });
     });
 </script>
