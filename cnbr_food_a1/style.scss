@@ -23,7 +23,7 @@ $c_margins: 50px 0;
 }
 
 .header {
-    height: 350px;
+    height: 450px;
     background: url(../images/restaurant_2.jpg) center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -47,19 +47,19 @@ $c_margins: 50px 0;
         z-index: 5;
         height: auto;
         display: inline-block;
-        margin: 50px auto;
+        margin: 100px auto;
         max-width: 90%;
         h2 {
             @extend ._1font;
             color: $c_01;
             display: block;
             border: 4px solid $c_01;
-            padding: 5px;
+            padding: 10px;
             margin: 0 auto;
             margin-top: 25px;
             margin-bottom: 25px;
             text-align: center;
-            max-width: 65%;
+            width: 70%;
         }
         h1 {
             @extend ._2font;
@@ -72,8 +72,9 @@ $c_margins: 50px 0;
         p {
             color: $c_01;
             display: block;
-            font-size: 24px;
+            font-size: 20px;
             margin: 0 auto;
+            text-align: center;
         }
     }
 }
@@ -282,8 +283,53 @@ $c_margins: 50px 0;
     }
 }
 
-#dishes_holder {
-    height: 1500px;
-    width: 100%;
-    background-color: $c_03;
+.dishes_selector {
+    .wagwep-container {
+        #porfolio-nav {
+            #portfolio-filter {
+                display: flex;
+                justify-content: center;
+                .current {
+                   a {
+                        background-color: $c_03;
+                    }
+                    
+                }
+            }
+        }
+    }
+    .og-grid {
+        height: auto;        
+        .og-expanded {
+            .og-expander {
+                height: auto !important;
+                width: 100%;
+                padding: 25px;
+                .og-expander-inner {
+                    padding: 0;
+                    .og-fullimg {
+                        height: auto;
+                    }
+                    .og-details {
+                        height: auto;
+                        .buttons-list {
+                            .link-button {
+                                color: $c_03 !important;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
 }
+
+#dishes_holder {
+    height: auto;
+    width: 100%;
+}
+.elastislide-wrapper {
+    display: none;
+}
+

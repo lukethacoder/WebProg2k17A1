@@ -11,7 +11,7 @@
   color: #f8bd08; }
 
 .header {
-  height: 350px;
+  height: 450px;
   background: url(../images/restaurant_2.jpg) center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -34,18 +34,18 @@
     z-index: 5;
     height: auto;
     display: inline-block;
-    margin: 50px auto;
+    margin: 100px auto;
     max-width: 90%; }
     .header div h2 {
       color: #ffffff;
       display: block;
       border: 4px solid #ffffff;
-      padding: 5px;
+      padding: 10px;
       margin: 0 auto;
       margin-top: 25px;
       margin-bottom: 25px;
       text-align: center;
-      max-width: 65%; }
+      width: 70%; }
     .header div h1 {
       display: block;
       text-align: center;
@@ -55,8 +55,9 @@
     .header div p {
       color: #ffffff;
       display: block;
-      font-size: 24px;
-      margin: 0 auto; }
+      font-size: 20px;
+      margin: 0 auto;
+      text-align: center; }
 
 .section_about {
   height: auto;
@@ -199,7 +200,30 @@
     margin: 0 auto;
     padding: 0; }
 
+.dishes_selector .wagwep-container #porfolio-nav #portfolio-filter {
+  display: flex;
+  justify-content: center; }
+  .dishes_selector .wagwep-container #porfolio-nav #portfolio-filter .current a {
+    background-color: #f8bd08; }
+
+.dishes_selector .og-grid {
+  height: auto; }
+  .dishes_selector .og-grid .og-expanded .og-expander {
+    height: auto !important;
+    width: 100%;
+    padding: 25px; }
+    .dishes_selector .og-grid .og-expanded .og-expander .og-expander-inner {
+      padding: 0; }
+      .dishes_selector .og-grid .og-expanded .og-expander .og-expander-inner .og-fullimg {
+        height: auto; }
+      .dishes_selector .og-grid .og-expanded .og-expander .og-expander-inner .og-details {
+        height: auto; }
+        .dishes_selector .og-grid .og-expanded .og-expander .og-expander-inner .og-details .buttons-list .link-button {
+          color: #f8bd08 !important; }
+
 #dishes_holder {
-  height: 1500px;
-  width: 100%;
-  background-color: #f8bd08; }
+  height: auto;
+  width: 100%; }
+
+.elastislide-wrapper {
+  display: none; }
