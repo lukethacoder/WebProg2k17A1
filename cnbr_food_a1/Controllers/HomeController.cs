@@ -48,6 +48,13 @@ namespace cnbr_food_a1.Controllers
             return View();
         }
 
+        public IActionResult Reviews()
+        {
+            ViewData["Message"] = "Reviews page.";
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
