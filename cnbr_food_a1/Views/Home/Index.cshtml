@@ -33,7 +33,7 @@
                 The multicultural society in Canberra spoils the locals with such a vast amount of flavours from around the world.
                 <br>
                 <br>
-                <a href="#">Click here</a> to find out more about the different cuisines avaliable.
+                <a asp-area="" asp-controller="Home" asp-action="Cuisine">Click here</a> to find out more about the different cuisines avaliable.
             </p>
         </div>
         <div class="col-sm-12 col-md-3">
@@ -45,7 +45,7 @@
                 There are so many amazing dishes out there for you to try.
                 <br>
                 <br>
-                <a href="#">Click here</a> to look for a dish.
+                <a asp-area="" asp-controller="Home" asp-action="Dishes">Click here</a> to look for a dish.
             </p>
         </div>
         <div class="col-sm-12 col-md-3">
@@ -54,7 +54,7 @@
                 Whether you're after a super cheap meal or want to treat yourself to something a little more fancy, Canberra has it all.
                 <br>
                 <br>
-                <a href="#">Click here</a> to see what's available in your price range/
+                <a asp-area="" asp-controller="Home" asp-action="Price">Click here</a> to see what's available in your price range/
             </p>
         </div>
         <div class="col-sm-12 col-md-3">
@@ -63,7 +63,7 @@
                 There might be the perfect meal waiting just around the corner from you. Check out our locations page to find a restaurant near you!
                 <br>
                 <br>
-                <a href="#">Click here</a> to see what's avaliable near you.
+                <a asp-area="" asp-controller="Home" asp-action="Location">Click here</a> to see what's avaliable near you.
             </p>
         </div>
     </div>
@@ -80,7 +80,7 @@
                 People from around Australia have already visited these restaurants and have given us their thoughts
                 <br>
                 <br>
-                Head over to our <a href="#">Customer Reviews Page</a> to find out more.
+                Head over to our <a asp-area="" asp-controller="Home" asp-action="Reviews">Customer Reviews Page</a> to find out more.
             </p>
         </div>
 
@@ -99,52 +99,64 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="~/images/carousel/itandsons_car.jpg" alt="Italian and Sons" class="img-responsive" />
-                    <div class="carousel-caption" role="option">
-                        <p>
-                            Italian and Sons
-                        </p>
-                    </div>
+                    <a href="https://italianandsons.com.au/" target="_blank" rel="noreferrer">
+                        <img src="~/images/carousel/itandsons_car.jpg" alt="Italian and Sons" class="img-responsive" />
+                        <div class="carousel-caption" role="option">
+                            <p>
+                                Italian and Sons
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="item">
-                    <img src="~/images/carousel/jamies_car.jpg" alt="Jamies Italian" class="img-responsive" />
-                    <div class="carousel-caption" role="option">
-                        <p>
-                            Jamies Italian
-                        </p>
-                    </div>
+                    <a href="https://www.jamieoliver.com/italian/australia/" target="_blank" rel="noreferrer">
+                        <img src="~/images/carousel/jamies_car.jpg" alt="Jamies Italian" class="img-responsive" />
+                        <div class="carousel-caption" role="option">
+                            <p>
+                                Jamies Italian
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="item">
-                    <img src="~/images/carousel/chairman_car.jpg" alt="The Chairman and Yip" class="img-responsive" />
-                    <div class="carousel-caption" role="option">
-                        <p>
-                            The Chairman and Yip
-                        </p>
-                    </div>
+                    <a href="http://chairmangroup.com.au/thechairmanhk/" target="_blank" rel="noreferrer">
+                        <img src="~/images/carousel/chairman_car.jpg" alt="The Chairman and Yip" class="img-responsive" />
+                        <div class="carousel-caption" role="option">
+                            <p>
+                                The Chairman and Yip
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="item">
-                    <img src="~/images/carousel/dicksonnoodle_car.jpg" alt="Dickson Asian Noodle House" class="img-responsive" />
-                    <div class="carousel-caption" role="option">
-                        <p>
-                            Dickson Asian Noodle House
-                        </p>
-                    </div>
+                    <a href="https://www.facebook.com/pages/Dickson-Asian-Noodle-House/156690017692038?ref=br_rs" target="_blank" rel="noreferrer">
+                        <img src="~/images/carousel/dicksonnoodle_car.jpg" alt="Dickson Asian Noodle House" class="img-responsive" />
+                        <div class="carousel-caption" role="option">
+                            <p>
+                                Dickson Asian Noodle House
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="item">
-                    <img src="~/images/carousel/bluginger_car.jpg" alt="Blu Ginger" class="img-responsive" />
-                    <div class="carousel-caption" role="option">
-                        <p>
-                            Blu Ginger
-                        </p>
-                    </div>
+                    <a href="http://www.bluginger.com.au/" target="_blank" rel="noreferrer">
+                        <img src="~/images/carousel/bluginger_car.jpg" alt="Blu Ginger" class="img-responsive" />
+                        <div class="carousel-caption" role="option">
+                            <p>
+                                Blu Ginger
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="item">
-                    <img src="~/images/carousel/jewel_car.jpg" alt="Jewel of India" class="img-responsive" />
-                    <div class="carousel-caption" role="option">
-                        <p>
-                            Jewel of India
-                        </p>
-                    </div>
+                    <a href="https://jewelofindia.com.au/" target="_blank" rel="noreferrer">
+                        <img src="~/images/carousel/jewel_car.jpg" alt="Jewel of India" class="img-responsive" />
+                        <div class="carousel-caption" role="option">
+                            <p>
+                                Jewel of India
+                            </p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
