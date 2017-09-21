@@ -9770,7 +9770,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lukes\\.nuget\\packages\\": {}
+    "C:\\Users\\lukethadrummer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -9778,14 +9778,14 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\lukes\\OneDrive\\Documents\\uni\\2017 - S2\\Web Design and Programming (7175)\\cnbr_food_a1\\cnbr_food_a1\\cnbr_food_a1\\cnbr_food_a1.csproj",
+      "projectUniqueName": "C:\\Users\\lukethadrummer\\OneDrive\\Documents\\uni\\2017 - S2\\Web Design and Programming (7175)\\cnbr_food_a1\\cnbr_food_a1\\cnbr_food_a1\\cnbr_food_a1.csproj",
       "projectName": "cnbr_food_a1",
-      "projectPath": "C:\\Users\\lukes\\OneDrive\\Documents\\uni\\2017 - S2\\Web Design and Programming (7175)\\cnbr_food_a1\\cnbr_food_a1\\cnbr_food_a1\\cnbr_food_a1.csproj",
-      "packagesPath": "C:\\Users\\lukes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lukes\\OneDrive\\Documents\\uni\\2017 - S2\\Web Design and Programming (7175)\\cnbr_food_a1\\cnbr_food_a1\\cnbr_food_a1\\obj\\",
+      "projectPath": "C:\\Users\\lukethadrummer\\OneDrive\\Documents\\uni\\2017 - S2\\Web Design and Programming (7175)\\cnbr_food_a1\\cnbr_food_a1\\cnbr_food_a1\\cnbr_food_a1.csproj",
+      "packagesPath": "C:\\Users\\lukethadrummer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lukethadrummer\\OneDrive\\Documents\\uni\\2017 - S2\\Web Design and Programming (7175)\\cnbr_food_a1\\cnbr_food_a1\\cnbr_food_a1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lukes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lukethadrummer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
