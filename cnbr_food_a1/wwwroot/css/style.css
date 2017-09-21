@@ -177,6 +177,8 @@
   height: auto;
   padding: 0px;
   margin: 0 auto; }
+  .cuisine_list .rest_item a {
+    color: #f8bd08 !important; }
   .cuisine_list .rest_items {
     float: left; }
     .cuisine_list .rest_items .rest_item {
@@ -189,8 +191,7 @@
         padding-bottom: 25px; }
   .cuisine_list .rest_reviews {
     background-color: lightblue;
-    height: 750px;
-    float: left; }
+    height: 750px; }
 
 .map_cont {
   margin: 0;
@@ -217,11 +218,14 @@
       height: 100%;
       margin: 0 auto; }
       .dishes_selector .og-grid li a figure span h2 {
-        margin-top: 100px; }
+        margin-top: 50px;
+        font-size: 18px;
+        padding: 15px;
+        text-align: center; }
       .dishes_selector .og-grid li a figure span a {
         width: 100%;
         height: 5px;
-        font-size: 14px;
+        font-size: 10px;
         padding: 25px;
         color: #f8bd08;
         background-image: -webkit-gradient(linear, left top, left bottom, from(#303030), to(#262626));
@@ -246,20 +250,31 @@
   height: auto;
   width: 100%; }
 
-.elastislide-wrapper {
-  display: none; }
-
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-  .section_about .food_image {
-    margin: 25px 0; }
-    .section_about .food_image img:nth-of-type(1) {
-      margin-right: 5px; }
-    .section_about .food_image img:nth-of-type(2) {
-      margin-left: 5px; }
-    .section_about .food_image img {
-      width: 50%;
-      height: 50%; }
+  ._1font, .header div h2, .section_about .text h2, .section_reviews .text h2, .rest_list .rest_items .rest_item div h2, .rest_list .rest_reviews div h2, .cuisine_list .rest_items .rest_item div h2, .cuisine_list .rest_reviews div h2 {
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 10px; }
+  ._2font, .header div h1, .section_about .text h1, .section_pages div h1, .section_reviews .text h1, .section_slider h1 {
+    font-family: 'Niconne', cursive;
+    color: #f8bd08; }
+  .header {
+    height: 350px; }
+  .section_about {
+    margin: 0 auto;
+    padding: 0; }
+    .section_about .food_image {
+      margin: 25px 0; }
+      .section_about .food_image img:nth-of-type(1) {
+        margin-right: 5px; }
+      .section_about .food_image img:nth-of-type(2) {
+        margin-left: 5px; }
+      .section_about .food_image img {
+        width: 50%;
+        height: 50%; }
   .section_pages div {
     padding: 10px 10px; }
     .section_pages div h1 {
@@ -268,15 +283,22 @@
     .section_pages div p {
       margin: 20px auto;
       max-width: 80%; }
-  .section_reviews .food_image {
-    margin: 25px 0; }
-    .section_reviews .food_image img:nth-of-type(1) {
-      margin-right: 5px; }
-    .section_reviews .food_image img:nth-of-type(2) {
-      margin-left: 5px; }
-    .section_reviews .food_image img {
-      width: 50%;
-      height: 50%; }
+  .section_reviews {
+    margin: 0 auto;
+    padding: 0; }
+    .section_reviews .food_image {
+      margin: 25px 0; }
+      .section_reviews .food_image img:nth-of-type(1) {
+        margin-right: 5px; }
+      .section_reviews .food_image img:nth-of-type(2) {
+        margin-left: 5px; }
+      .section_reviews .food_image img {
+        width: 50%;
+        height: 50%; }
+  .section_slider p {
+    display: none; }
+  .section_slider .carousel {
+    margin-top: 50px; }
   .rest_img {
     width: 85%;
     height: 85%;
@@ -298,7 +320,7 @@
         height: 100%;
         margin: 0 auto; }
         .dishes_selector .og-grid li a figure span h2 {
-          margin-top: 100px; }
+          margin-top: 50px; }
         .dishes_selector .og-grid li a figure span a {
           width: 100%;
           height: 5px;
@@ -322,4 +344,96 @@
             height: auto; } }
 
 /* Medium devices (desktops, 992px and up) */
-/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 992px) {
+  ._1font, .header div h2, .section_about .text h2, .section_reviews .text h2, .rest_list .rest_items .rest_item div h2, .rest_list .rest_reviews div h2, .cuisine_list .rest_items .rest_item div h2, .cuisine_list .rest_reviews div h2 {
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 10px; }
+  ._2font, .header div h1, .section_about .text h1, .section_pages div h1, .section_reviews .text h1, .section_slider h1 {
+    font-family: 'Niconne', cursive;
+    color: #f8bd08; }
+  p {
+    font-size: 18px; }
+  .header {
+    height: 350px; }
+    .header h2 {
+      border: 3px solid #ffffff; }
+    .header div h1 {
+      font-size: 36px; }
+  .section_about {
+    margin: 0 auto;
+    padding: 0; }
+    .section_about .food_image {
+      margin: 25px 0; }
+      .section_about .food_image img:nth-of-type(1) {
+        margin-right: 5px; }
+      .section_about .food_image img:nth-of-type(2) {
+        margin-left: 5px; }
+      .section_about .food_image img {
+        width: 50%;
+        height: 50%; }
+  .section_pages div {
+    padding: 10px 10px; }
+    .section_pages div h1 {
+      font-size: 48px;
+      margin: 15px auto; }
+    .section_pages div p {
+      margin: 20px auto;
+      max-width: 80%; }
+  .section_reviews {
+    margin: 0 auto;
+    padding: 0; }
+    .section_reviews .food_image {
+      margin: 25px 0; }
+      .section_reviews .food_image img:nth-of-type(1) {
+        margin-right: 5px; }
+      .section_reviews .food_image img:nth-of-type(2) {
+        margin-left: 5px; }
+      .section_reviews .food_image img {
+        width: 50%;
+        height: 50%; }
+  .section_slider .carousel {
+    margin-top: 50px; }
+  .rest_img {
+    margin: 0 auto !important;
+    padding: 0 !important; }
+  .dishes_selector .wagwep-container #porfolio-nav #portfolio-filter {
+    display: flex;
+    justify-content: center; }
+    .dishes_selector .wagwep-container #porfolio-nav #portfolio-filter .current a {
+      background-color: #f8bd08; }
+  .dishes_selector .og-grid {
+    height: auto; }
+    .dishes_selector .og-grid li a figure {
+      display: flex;
+      margin: 0 auto;
+      justify-content: center; }
+      .dishes_selector .og-grid li a figure span {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto; }
+        .dishes_selector .og-grid li a figure span h2 {
+          margin-top: 50px; }
+        .dishes_selector .og-grid li a figure span a {
+          width: 100%;
+          height: 5px;
+          font-size: 14px;
+          padding: 25px;
+          color: #f8bd08;
+          background-image: -webkit-gradient(linear, left top, left bottom, from(#303030), to(#262626));
+          background-color: #454545;
+          border: 1px solid #141414; }
+    .dishes_selector .og-grid .og-expanded {
+      height: 750px !important; }
+      .dishes_selector .og-grid .og-expanded .og-expander {
+        height: auto !important;
+        width: 100%;
+        padding: 25px; }
+        .dishes_selector .og-grid .og-expanded .og-expander .og-expander-inner {
+          padding: 0; }
+          .dishes_selector .og-grid .og-expanded .og-expander .og-expander-inner .og-fullimg {
+            height: auto; }
+          .dishes_selector .og-grid .og-expanded .og-expander .og-expander-inner .og-details {
+            height: auto; } }
